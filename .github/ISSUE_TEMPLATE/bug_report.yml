@@ -11,8 +11,8 @@ body:
     id: version
     attributes:
       label: Extension version
-      description: e.g. 2.6.5 (from Extensions view)
-      placeholder: "2.6.5"
+      description: e.g. 2.6.6 (from Extensions view)
+      placeholder: "2.6.6"
     validations:
       required: true
   - type: input
