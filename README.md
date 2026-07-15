@@ -104,9 +104,3 @@ Open via the **Sessions** gear or **Agent Resume: Open Settings**. After an in-p
 - [Source repository](https://github.com/lucacicii/agent-resume-panel)
 - [Desktop App documentation](https://github.com/lucacicii/agent-resume-desktop-doc)
 - [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=lucacicii.agent-resume-panel-v2)
-
----
-
-## License
-
-MIT — see [LICENSE](LICENSE).
