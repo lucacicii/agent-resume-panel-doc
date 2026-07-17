@@ -5,6 +5,15 @@ Languages: [English](#english) | [简体中文](#简体中文)
 Browse, search, and resume **Codex / Claude Code / Antigravity / Grok Build / OpenCode / Pi / Alma** CLI sessions from a VS Code / VSCodium sidebar — with **ACP Chat**, **GTD** tagging, **multi-note Markdown** files, and Summarize / Rename / Handoff assist.
 
 There is also a standalone **macOS Desktop app** for calendar digests, Agent Q&A over your work history, and an embedded **Workbench** terminal — it shares the same local data as this extension.
+<img width="1787" height="1323" alt="image" src="https://github.com/user-attachments/assets/84f880d6-e0bb-455f-ae31-0f9cdf63b36f" /><img width="588" height="582" alt="image" src="https://github.com/user-attachments/assets/0c681e2f-874f-4502-b060-32b0d3b3bb9b" />
+<img width="2560" height="1345" alt="image" src="https://github.com/user-attachments/assets/6a88ddcb-5665-4481-9622-0ab6f7c90dd7" /><img width="584" height="467" alt="image" src="https://github.com/user-attachments/assets/31b568e1-c287-4404-b631-79365870e04e" />
+<img width="2560" height="1345" alt="image" src="https://github.com/user-attachments/assets/5e2332c2-a401-4847-816d-e1eb475dba8c" /><img width="2560" height="1345" alt="image" src="https://github.com/user-attachments/assets/807f4882-e93c-47ee-bc50-5c5e387cce8a" />
+<img width="1293" height="456" alt="image" src="https://github.com/user-attachments/assets/3ed291fe-54e4-49ad-aec5-dc112566600a" /><img width="578" height="438" alt="image" src="https://github.com/user-attachments/assets/41ee14bf-d40c-4569-acff-a5751c66b3c8" />
+<img width="1175" height="717" alt="image" src="https://github.com/user-attachments/assets/289e6718-7121-48bc-8c21-06ef716b09f5" /><img width="2114" height="1309" alt="image" src="https://github.com/user-attachments/assets/b4647bf8-39b8-4c0d-b24b-72dfb04c2c4f" />
+<img width="2560" height="1345" alt="image" src="https://github.com/user-attachments/assets/b5aabd35-862b-4e25-9901-537c8d106152" />
+
+
+
 
 | | VS Code extension | Desktop app (macOS) |
 |---|---|---|
