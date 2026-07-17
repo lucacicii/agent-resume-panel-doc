@@ -20,7 +20,7 @@ There is also a standalone **macOS Desktop app** for calendar digests, Agent Q&A
 | **Install** | [Marketplace](https://marketplace.visualstudio.com/items?itemName=lucacicii.agent-resume-panel-v2) | [Download DMG](https://github.com/lucacicii/agent-resume-desktop-doc/releases/latest) |
 | **Docs** | This repo | [desktop-doc](https://github.com/lucacicii/agent-resume-desktop-doc) |
 
-Extension version: **2.6.6** · Desktop: see [releases](https://github.com/lucacicii/agent-resume-desktop-doc/releases)
+Extension version: **2.6.9** · Desktop: see [releases](https://github.com/lucacicii/agent-resume-desktop-doc/releases)
 
 > **No cloud · Local-first**  
 > Session index, notes, and ACP chats are stored on your machine under **`~/.agent-resume-panel`** (shared by extension and Desktop).  
@@ -30,9 +30,28 @@ Extension version: **2.6.6** · Desktop: see [releases](https://github.com/lucac
 
 ## English
 
+### Documentation by module
+
+| Module | What it covers |
+|--------|----------------|
+| [Sessions](sessions.md) | Recent / Favorites / Projects, providers, search, Session Manager, hide / rename / preview |
+| [Resume & targets](resume-and-targets.md) | How resume works: integrated terminal, Ghostty, Claude/Codex panels, Codex App, Alma |
+| [ACP Chat](acp-chat.md) | In-editor chat via ACP (extension-only) |
+| [GTD](gtd.md) | `@inbox` / `@next` / `@waiting` / `@someday` / `@reference` |
+| [Notes](notes.md) | Markdown notes per session or project, attachments |
+| [LLM Assist](llm-assist.md) | Summarize, Auto Rename, Handoff Brief |
+| [Settings & data](settings-and-data.md) | Panel home, settings, backup, upgrade tips |
+
+### Quick start
+
+1. Install from the [Marketplace](https://marketplace.visualstudio.com/items?itemName=lucacicii.agent-resume-panel-v2) and open **Agent Resume** in the activity bar.
+2. Use the four sidebar views: **Sessions**, **ACP Chats**, **GTD**, and **Notes**.
+3. Click a session in **Sessions** to resume (default target is configurable).
+4. Use **Refresh** in a view’s title bar when lists look stale.
+
 ### VS Code extension vs Desktop
 
-**Two products, one data directory** — read the same agent sessions and the same `~/.agent-resume-panel` folder. Use one or both.
+**Two products, one data directory** — same agent sessions and the same `~/.agent-resume-panel` folder. Use one or both.
 
 | | **VS Code extension** | **Agent Resume Desktop** |
 |---|---|---|
@@ -44,38 +63,9 @@ Extension version: **2.6.6** · Desktop: see [releases](https://github.com/lucac
 
 **Shared (no duplicate setup):** `catalog.db` session index, GTD tags, Markdown notes, LLM settings (`settings.json`). CLI transcripts still live in each agent’s native storage (Codex, Claude, etc.). Desktop keeps its own extras under `panelHome/.desktop/`.
 
-Typical combo: **extension** for day-to-day resume inside the editor → **Desktop** for weekly review, digest generation, and “what did I work on last Tuesday?” — without re-importing anything.
+Typical combo: **extension** for day-to-day resume inside the editor → **Desktop** for weekly review and digests — without re-importing anything.
 
 [Install extension](https://marketplace.visualstudio.com/items?itemName=lucacicii.agent-resume-panel-v2) · [Download Desktop (macOS)](https://github.com/lucacicii/agent-resume-desktop-doc/releases/latest) · [Desktop docs](https://github.com/lucacicii/agent-resume-desktop-doc)
-
-### Features
-
-| Feature | Description |
-|---------|-------------|
-| **Sessions** | Recent / Favorites / Projects; click to resume |
-| **ACP Chats** | In-editor chat via [ACP](https://agentclientprotocol.com) (Codex / Claude / Grok / OpenCode / Pi) |
-| **GTD** | `@inbox` / `@next` / `@waiting` / `@someday` / `@reference` on CLI sessions |
-| **Notes** | Multiple Markdown notes per session or project, with image attachments |
-| **Search / Manager** | Filter by project, GTD, provider; bulk browse and **Export** backup |
-| **LLM Assist** | Summarize, Auto Rename, Handoff Brief (OpenAI-compatible API) |
-| **Resume targets** | Integrated terminal, Claude/Codex panels, Ghostty, ChatGPT, Alma |
-
-### Quick start
-
-1. Open **Agent Resume** in the activity bar.
-2. Use **Sessions**, **ACP Chats**, **GTD**, and **Notes** views.
-3. Click a session in **Sessions** to resume.
-4. Use **Refresh** in each view title bar when lists are stale.
-
-### Data & backup
-
-Panel data lives under **`~/.agent-resume-panel`** by default: session index, GTD labels, notes, and ACP chats. Full transcripts remain in each agent's native home directory (e.g. `~/.codex`, `~/.claude`). Back up those folders when moving machines.
-
-Use **Session Manager → Export** for conversation backups.
-
-### Settings
-
-Open via the **Sessions** gear or **Agent Resume: Open Settings**. After an in-place upgrade, run **Developer: Reload Window** if menus look wrong (sidebar Refresh does not reload menu contributions).
 
 ### Feedback & support
 
@@ -101,10 +91,29 @@ Open via the **Sessions** gear or **Agent Resume: Open Settings**. After an in-p
 | **安装** | [Marketplace](https://marketplace.visualstudio.com/items?itemName=lucacicii.agent-resume-panel-v2) | [下载 DMG](https://github.com/lucacicii/agent-resume-desktop-doc/releases/latest) |
 | **文档** | 本仓库 | [desktop-doc](https://github.com/lucacicii/agent-resume-desktop-doc) |
 
-扩展版本：**2.6.6** · 桌面端版本见 [Releases](https://github.com/lucacicii/agent-resume-desktop-doc/releases)
+扩展版本：**2.6.9** · 桌面端版本见 [Releases](https://github.com/lucacicii/agent-resume-desktop-doc/releases)
 
 > **无云端 · 纯本机存储**  
 > 数据默认目录 **`~/.agent-resume-panel`**（扩展与 Desktop 共用）。可选 LLM Assist 仅在你配置第三方 API 时使用。
+
+### 按模块阅读
+
+| 模块 | 内容 |
+|------|------|
+| [会话 Sessions](sessions.md) | Recent / Favorites / Projects、Provider、搜索、Session Manager、隐藏 / 重命名 / 预览 |
+| [恢复与目标](resume-and-targets.md) | 点击恢复：集成终端、Ghostty、Claude/Codex 面板、Codex App、Alma |
+| [ACP Chat](acp-chat.md) | 编辑器旁 ACP 聊天（仅扩展） |
+| [GTD](gtd.md) | `@inbox` / `@next` / `@waiting` / `@someday` / `@reference` |
+| [Notes](notes.md) | 会话 / 项目 Markdown 笔记与附件 |
+| [LLM 辅助](llm-assist.md) | 摘要、自动重命名、Handoff Brief |
+| [设置与数据](settings-and-data.md) | 数据目录、设置、备份、升级提示 |
+
+### 快速开始
+
+1. 从 [Marketplace](https://marketplace.visualstudio.com/items?itemName=lucacicii.agent-resume-panel-v2) 安装，并在活动栏打开 **Agent Resume**。
+2. 使用四个侧边栏视图：**Sessions**、**ACP Chats**、**GTD**、**Notes**。
+3. 在 **Sessions** 中点击会话即可恢复（默认目标可配置）。
+4. 列表过期时，点视图标题栏的 **Refresh**。
 
 ### VS Code 扩展 vs Desktop
 
@@ -120,35 +129,9 @@ Open via the **Sessions** gear or **Agent Resume: Open Settings**. After an in-p
 
 **共用（无需重复配置）：** `catalog.db` 会话索引、GTD 标记、Markdown 笔记、LLM 设置（`settings.json`）。CLI 对话正文仍在各 Agent 本机原生存储。Desktop 私有数据在 `panelHome/.desktop/`。
 
-常见搭配：**扩展**负责日常在编辑器里恢复会话 → **Desktop** 负责周报回顾、生成 Digest、「上周二我在做什么」——无需重新导入。
+常见搭配：**扩展**负责日常在编辑器里恢复会话 → **Desktop** 负责周报回顾与 Digest——无需重新导入。
 
 [安装扩展](https://marketplace.visualstudio.com/items?itemName=lucacicii.agent-resume-panel-v2) · [下载 Desktop（macOS）](https://github.com/lucacicii/agent-resume-desktop-doc/releases/latest) · [Desktop 文档](https://github.com/lucacicii/agent-resume-desktop-doc)
-
-### 功能一览
-
-| 能力 | 说明 |
-|------|------|
-| **Sessions** | 按 Recent / Favorites / Projects 浏览 CLI 历史，点击恢复 |
-| **ACP Chats** | 基于 [ACP](https://agentclientprotocol.com) 的编辑器旁聊天 |
-| **GTD** | `@inbox` / `@next` / `@waiting` / `@someday` / `@reference` 标签 |
-| **Notes** | 每个 session / project 可有多条 Markdown 笔记，支持图片附件 |
-| **搜索 / Manager** | 按项目、GTD、provider 筛选；批量浏览与 Export 备份 |
-| **LLM Assist** | Summarize、Auto Rename、Handoff Brief（需 OpenAI 兼容 API） |
-| **恢复目标** | 集成终端、Claude / Codex 面板、Ghostty、ChatGPT、Alma |
-
-### 快速开始
-
-1. 在活动栏打开 **Agent Resume**。
-2. 使用 **Sessions**、**ACP Chats**、**GTD**、**Notes** 四个视图。
-3. 在 **Sessions** 中点击会话恢复；列表过期时点 **Refresh**。
-
-### 数据与备份
-
-面板数据默认在 **`~/.agent-resume-panel`**。完整对话原文仍在各 Agent 本机目录。换机请自行备份。**Session Manager → Export** 可导出对话备份。
-
-### 设置
-
-**Sessions** 齿轮或 **Agent Resume: Open Settings**。升级后菜单异常请执行 **Developer: Reload Window**。
 
 ### 反馈与支持
 
