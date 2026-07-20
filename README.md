@@ -69,6 +69,7 @@ Typical combo: **extension** for day-to-day resume inside the editor → **Deskt
 
 ### Feedback & support
 
+- **Discord community**: [discord.gg/CG2esx7K7](https://discord.gg/CG2esx7K7)
 - **Bugs / feature requests**: [GitHub Issues](https://github.com/lucacicii/agent-resume-panel-doc/issues)
 - Do not paste API keys, full transcripts, or sensitive paths in issues.
 
@@ -135,6 +136,7 @@ Typical combo: **extension** for day-to-day resume inside the editor → **Deskt
 
 ### 反馈与支持
 
+- **Discord 社区**：[discord.gg/CG2esx7K7](https://discord.gg/CG2esx7K7)
 - [GitHub Issues](https://github.com/lucacicii/agent-resume-panel-doc/issues)
 - 请勿粘贴 API Key、完整对话内容或敏感路径。
 
