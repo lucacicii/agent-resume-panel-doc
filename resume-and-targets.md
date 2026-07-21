@@ -26,13 +26,12 @@ Clicking a session (or choosing a resume action from the context menu) launches 
 | **Claude Code panel** | Resume inside the Claude Code IDE panel when available |
 | **Codex IDE panel** | Resume inside the Codex IDE panel when available |
 | **Codex App** | Open the standalone Codex app for that session |
-| **Alma** | Resume via Alma-related entry points when configured |
 
 Exact menu items depend on provider and your settings (e.g. Claude/Codex resume mode, Ghostty executable path).
 
 ### New sessions
 
-From project or editor context you can start **new** sessions for Codex, Claude, Antigravity, Grok, OpenCode, Pi, Alma, or Codex App — without leaving the IDE. Editor “new session” default provider is configurable.
+From project or editor context you can start **new** sessions for Codex, Claude, Antigravity, Grok, OpenCode, Pi, or Codex App — without leaving the IDE. Editor “new session” default provider is configurable.
 
 ### Tips
 
@@ -69,13 +68,12 @@ From project or editor context you can start **new** sessions for Codex, Claude,
 | **Claude Code 面板** | 在可用时于 Claude Code IDE 面板中恢复 |
 | **Codex IDE 面板** | 在可用时于 Codex IDE 面板中恢复 |
 | **Codex App** | 在独立 Codex 应用中打开该会话 |
-| **Alma** | 在配置可用时通过 Alma 相关入口恢复 |
 
 具体菜单项取决于 Provider 与设置（如 Claude/Codex resume mode、Ghostty 可执行文件路径）。
 
 ### 新建会话
 
-可从项目或编辑器上下文新建 Codex、Claude、Antigravity、Grok、OpenCode、Pi、Alma 或 Codex App 会话。编辑器「新建会话」的默认 Provider 可配置。
+可从项目或编辑器上下文新建 Codex、Claude、Antigravity、Grok、OpenCode、Pi 或 Codex App 会话。编辑器「新建会话」的默认 Provider 可配置。
 
 ### 提示
 

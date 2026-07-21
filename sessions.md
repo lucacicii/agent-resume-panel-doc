@@ -22,7 +22,6 @@ The **Sessions** sidebar view is the main place to browse, search, and open hist
 | **Grok Build** | `~/.grok` (or configured path) |
 | **OpenCode** | configured OpenCode home |
 | **Pi** | configured Pi home |
-| **Alma** | configured Alma data directory |
 
 Full transcripts stay in each agent’s native storage. The panel index only stores catalog metadata (title, project, timestamps, GTD, note flags, etc.).
 
@@ -85,7 +84,6 @@ Use the view title bar **Refresh** when lists look out of date after heavy CLI u
 | **Grok Build** | `~/.grok`（或自定义路径） |
 | **OpenCode** | 配置的 OpenCode 目录 |
 | **Pi** | 配置的 Pi 目录 |
-| **Alma** | 配置的 Alma 数据目录 |
 
 完整对话正文仍在各 Agent 原生存储中。面板索引主要保存标题、项目、时间、GTD、笔记标记等元数据。
 

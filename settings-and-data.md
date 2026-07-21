@@ -41,7 +41,7 @@ You can override **panel home** and **catalog DB path** in settings if needed.
 
 | Area | Examples |
 |------|----------|
-| **Agent homes** | `codexHome`, `claudeHome`, Antigravity, Grok, OpenCode, Pi, Alma paths |
+| **Agent homes** | `codexHome`, `claudeHome`, Antigravity, Grok, OpenCode, Pi paths |
 | **Catalog** | sync max items, stale policy, sidebar mode |
 | **Terminal / resume** | terminal mode & location, Ghostty path/mode, Claude/Codex resume modes, IDE panel resume |
 | **ACP** | auto-approve permissions, per-agent command/args |
@@ -109,7 +109,7 @@ CLI **对话原文** 仍在各 Agent 原生目录（`~/.codex`、`~/.claude` 等
 
 | 区域 | 示例 |
 |------|------|
-| **Agent 目录** | Codex / Claude / Antigravity / Grok / OpenCode / Pi / Alma 路径 |
+| **Agent 目录** | Codex / Claude / Antigravity / Grok / OpenCode / Pi 路径 |
 | **目录 Catalog** | 同步条数上限、过期策略、侧边栏模式 |
 | **终端 / 恢复** | 终端模式与位置、Ghostty、Claude/Codex resume、IDE 面板恢复 |
 | **ACP** | 自动批准权限、各 Agent command/args |
