@@ -23,6 +23,7 @@ ACP chats are **not** GTD-tagged.
 | `@waiting` | Blocked on someone / something else |
 | `@someday` | Deferred / maybe later |
 | `@reference` | Keep for lookup, not actionable |
+| `@done` | Completed and kept as a completion record |
 
 ### Main workflows
 
@@ -36,6 +37,8 @@ ACP chats are **not** GTD-tagged.
 - Desktop **Report** can propose GTD updates from weekly/monthly digests (preview → apply).  
 - Labels applied on Desktop appear in the extension GTD tree after sync/refresh, and vice versa.  
 - Desktop may also maintain project `todolist.md` content as part of the report GTD workflow — the extension focuses on session-level GTD in the sidebar.
+- Desktop **Workbench** has its own GTD view. It keeps Done sessions in a collapsed **Completed** group; right-click a session to set its GTD state from colored tags.
+- **Done is manual**: it is a completion archive, while **Clear** removes the GTD status and returns the session to an untriaged state. Report AI and MCP writes do not set Done automatically.
 
 ### Tips
 
@@ -68,6 +71,7 @@ ACP 聊天 **不会** 打 GTD 标签。
 | `@waiting` | 等待他人 / 外部条件 |
 | `@someday` | 以后再说 |
 | `@reference` | 参考资料，非行动项 |
+| `@done` | 已完成，并保留为完成记录 |
 
 ### 主要流程
 
@@ -81,6 +85,8 @@ ACP 聊天 **不会** 打 GTD 标签。
 - Desktop **Report** 可从周报/月报生成 GTD 建议（预览 → 应用）。  
 - Desktop 上的标签在扩展刷新后可见，反之亦然。  
 - Desktop 还可能维护项目 `todolist.md`；扩展侧重点是侧边栏会话级 GTD。
+- Desktop **Workbench** 也有 GTD 视图：Done 会话收纳在默认折叠的 **已完成** 分组；右键会话可通过带状态色的标签设置 GTD 状态。
+- **Done 仅人工设置**：它表示完成归档；**清除状态** 则删除 GTD 标记并回到未分流。报告 AI 与 MCP 写入不会自动设为 Done。
 
 ### 提示
 

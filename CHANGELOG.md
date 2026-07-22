@@ -8,11 +8,22 @@ This file is used for Open VSX release notes and follows [Keep a Changelog](http
 
 ## 简体中文
 
+### [2.6.13]
+
+#### 新增
+
+- **GTD Done 状态**：Sessions / GTD 右键菜单可标记会话完成；GTD 树新增默认折叠的 Done 分组，Search Sessions 与 Session Manager 可按 Done 筛选。
+
+#### 变更
+
+- Done 是人工完成归档；清除状态仍表示未分流，报告 AI 与 MCP 写入不会自动设置 Done。
+
 ### [2.6.12]
 
 #### 变更
 
-- **移除 Alma Provider 支持**：不再同步 / 预览 / 恢复 Alma 会话；设置中的 Alma 目录与过滤项已删除。已有 catalog 中的 Alma 会话会在下次同步时自动隐藏。
+- **移除 Alma Provider 支持**：不再同步 / 预览 / 恢复 Alma 会话；设置中的 Alma 目录与过滤项已删除。
+- **清理 catalog 中的 Alma 数据**：同步时硬删除 Alma `sessions` 及相关行，并删除仅含 Alma 会话的 projects；混合项目保留。
 - 请与 **Agent Resume Desktop ≥ 0.2.3** 共用同一 `panelHome`（共享 core 已去掉 Alma 同步）。
 
 ### [2.6.11]
@@ -414,11 +425,22 @@ This file is used for Open VSX release notes and follows [Keep a Changelog](http
 
 ## English
 
+### [2.6.13]
+
+#### Added
+
+- **GTD Done status**: mark sessions complete from the Sessions / GTD context menu; the GTD tree adds a collapsed Done group, and Search Sessions / Session Manager can filter by Done.
+
+#### Changed
+
+- Done is a human completion archive; Clear still means untriaged, and report AI or MCP writes never set Done automatically.
+
 ### [2.6.12]
 
 #### Changed
 
-- **Removed Alma provider support**: Alma sessions are no longer synced, previewed, or resumed; Alma-related settings are gone. Existing Alma rows in the catalog are hidden on the next sync.
+- **Removed Alma provider support**: Alma sessions are no longer synced, previewed, or resumed; Alma-related settings are gone.
+- **Purge Alma catalog rows on sync**: hard-deletes Alma `sessions` / satellite rows and Alma-only projects; mixed projects are kept.
 - Prefer **Agent Resume Desktop ≥ 0.2.3** when sharing the same `panelHome` (shared core no longer syncs Alma).
 
 ### [2.6.11]

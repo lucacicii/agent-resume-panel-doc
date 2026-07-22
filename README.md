@@ -20,7 +20,7 @@ There is also a standalone **macOS Desktop app** for calendar digests, Agent Q&A
 | **Install** | [Marketplace](https://marketplace.visualstudio.com/items?itemName=lucacicii.agent-resume-panel-v2) | [Download DMG](https://github.com/lucacicii/agent-resume-desktop-doc/releases/latest) |
 | **Docs** | This repo | [desktop-doc](https://github.com/lucacicii/agent-resume-desktop-doc) |
 
-Extension version: **2.6.12** · [Changelog](CHANGELOG.md) · Desktop: see [releases](https://github.com/lucacicii/agent-resume-desktop-doc/releases)
+Extension version: **2.6.13** · [Changelog](CHANGELOG.md) · Desktop: see [releases](https://github.com/lucacicii/agent-resume-desktop-doc/releases)
 
 > **No cloud · Local-first**  
 > Session index, notes, and ACP chats are stored on your machine under **`~/.agent-resume-panel`** (shared by extension and Desktop).  
@@ -37,7 +37,7 @@ Extension version: **2.6.12** · [Changelog](CHANGELOG.md) · Desktop: see [rele
 | [Sessions](sessions.md) | Recent / Favorites / Projects, providers, search, Session Manager, hide / rename / preview |
 | [Resume & targets](resume-and-targets.md) | How resume works: integrated terminal, Ghostty, Claude/Codex panels, Codex App |
 | [ACP Chat](acp-chat.md) | In-editor chat via ACP (extension-only) |
-| [GTD](gtd.md) | `@inbox` / `@next` / `@waiting` / `@someday` / `@reference` |
+| [GTD](gtd.md) | `@inbox` / `@next` / `@waiting` / `@someday` / `@reference` / `@done` |
 | [Notes](notes.md) | Markdown notes per session or project, attachments |
 | [LLM Assist](llm-assist.md) | Summarize, Auto Rename, Handoff Brief |
 | [Settings & data](settings-and-data.md) | Panel home, settings, backup, upgrade tips |
@@ -93,7 +93,7 @@ Typical combo: **extension** for day-to-day resume inside the editor → **Deskt
 | **安装** | [Marketplace](https://marketplace.visualstudio.com/items?itemName=lucacicii.agent-resume-panel-v2) | [下载 DMG](https://github.com/lucacicii/agent-resume-desktop-doc/releases/latest) |
 | **文档** | 本仓库 | [desktop-doc](https://github.com/lucacicii/agent-resume-desktop-doc) |
 
-扩展版本：**2.6.12** · [更新日志](CHANGELOG.md) · 桌面端版本见 [Releases](https://github.com/lucacicii/agent-resume-desktop-doc/releases)
+扩展版本：**2.6.13** · [更新日志](CHANGELOG.md) · 桌面端版本见 [Releases](https://github.com/lucacicii/agent-resume-desktop-doc/releases)
 
 > **无云端 · 纯本机存储**  
 > 数据默认目录 **`~/.agent-resume-panel`**（扩展与 Desktop 共用）。可选 LLM Assist 仅在你配置第三方 API 时使用。
@@ -105,7 +105,7 @@ Typical combo: **extension** for day-to-day resume inside the editor → **Deskt
 | [会话 Sessions](sessions.md) | Recent / Favorites / Projects、Provider、搜索、Session Manager、隐藏 / 重命名 / 预览 |
 | [恢复与目标](resume-and-targets.md) | 点击恢复：集成终端、Ghostty、Claude/Codex 面板、Codex App |
 | [ACP Chat](acp-chat.md) | 编辑器旁 ACP 聊天（仅扩展） |
-| [GTD](gtd.md) | `@inbox` / `@next` / `@waiting` / `@someday` / `@reference` |
+| [GTD](gtd.md) | `@inbox` / `@next` / `@waiting` / `@someday` / `@reference` / `@done` |
 | [Notes](notes.md) | 会话 / 项目 Markdown 笔记与附件 |
 | [LLM 辅助](llm-assist.md) | 摘要、自动重命名、Handoff Brief |
 | [设置与数据](settings-and-data.md) | 数据目录、设置、备份、升级提示 |
