@@ -2,7 +2,7 @@
 
 Languages: [English](#english) | [简体中文](#简体中文)
 
-Browse, search, and resume **Codex / Claude Code / Antigravity / Grok Build / OpenCode / Pi** CLI sessions from a VS Code / VSCodium sidebar — with **ACP Chat**, **GTD** tagging, **multi-note Markdown** files, and Summarize / Rename / Handoff assist.
+Browse, search, and resume **Codex / Claude Code / Antigravity / Grok Build / OpenCode / Pi / Cursor CLI** sessions from a VS Code / VSCodium sidebar — with **ACP Chat**, **GTD** tagging, **multi-note Markdown** files, and Summarize / Rename / Handoff assist. **Cursor IDE** Composer session metadata is indexed and opens its recorded project in Cursor.
 
 There is also a standalone **macOS Desktop app** for calendar digests, Agent Q&A over your work history, and an embedded **Workbench** terminal — it shares the same local data as this extension.
 <img width="1787" height="1323" alt="image" src="https://github.com/user-attachments/assets/84f880d6-e0bb-455f-ae31-0f9cdf63b36f" /><img width="588" height="582" alt="image" src="https://github.com/user-attachments/assets/0c681e2f-874f-4502-b060-32b0d3b3bb9b" />
@@ -20,7 +20,7 @@ There is also a standalone **macOS Desktop app** for calendar digests, Agent Q&A
 | **Install** | [Marketplace](https://marketplace.visualstudio.com/items?itemName=lucacicii.agent-resume-panel-v2) | [Download DMG](https://github.com/lucacicii/agent-resume-desktop-doc/releases/latest) |
 | **Docs** | This repo | [desktop-doc](https://github.com/lucacicii/agent-resume-desktop-doc) |
 
-Extension version: **2.6.13** · [Changelog](CHANGELOG.md) · Desktop: see [releases](https://github.com/lucacicii/agent-resume-desktop-doc/releases)
+Extension version: **2.7.0** · [Changelog](CHANGELOG.md) · Desktop: see [releases](https://github.com/lucacicii/agent-resume-desktop-doc/releases)
 
 > **No cloud · Local-first**  
 > Session index, notes, and ACP chats are stored on your machine under **`~/.agent-resume-panel`** (shared by extension and Desktop).  
@@ -34,8 +34,8 @@ Extension version: **2.6.13** · [Changelog](CHANGELOG.md) · Desktop: see [rele
 
 | Module | What it covers |
 |--------|----------------|
-| [Sessions](sessions.md) | Recent / Favorites / Projects, providers, search, Session Manager, hide / rename / preview |
-| [Resume & targets](resume-and-targets.md) | How resume works: integrated terminal, Ghostty, Claude/Codex panels, Codex App |
+| [Sessions](sessions.md) | Recent / Favorites / Projects, providers including Cursor, search, Session Manager, hide / rename / preview |
+| [Resume & targets](resume-and-targets.md) | How resume works: integrated terminal, Ghostty, Claude/Codex panels, Codex App, and Cursor CLI |
 | [ACP Chat](acp-chat.md) | In-editor chat via ACP (extension-only) |
 | [GTD](gtd.md) | `@inbox` / `@next` / `@waiting` / `@someday` / `@reference` / `@done` |
 | [Notes](notes.md) | Markdown notes per session or project, attachments |
@@ -84,7 +84,7 @@ Typical combo: **extension** for day-to-day resume inside the editor → **Deskt
 
 ## 简体中文
 
-在 VS Code / VSCodium 侧边栏中统一浏览、搜索、恢复 **Codex / Claude Code / Antigravity / Grok Build / OpenCode / Pi** 历史会话；支持 **ACP Chat**、**GTD**、**多条 Markdown 笔记**，以及摘要 / 重命名 / Handoff 等辅助能力。
+在 VS Code / VSCodium 侧边栏中统一浏览、搜索、恢复 **Codex / Claude Code / Antigravity / Grok Build / OpenCode / Pi / Cursor CLI** 历史会话；支持 **ACP Chat**、**GTD**、**多条 Markdown 笔记**，以及摘要 / 重命名 / Handoff 等辅助能力。**Cursor IDE** Composer 会话仅索引元数据，点击后在 Cursor 中打开其记录的项目。
 
 另有独立 **macOS 桌面端**：日历回顾、基于报告的 **Agent** 问答、内嵌 **Workbench** 终端，与本扩展共用同一份本机数据。
 
@@ -93,7 +93,7 @@ Typical combo: **extension** for day-to-day resume inside the editor → **Deskt
 | **安装** | [Marketplace](https://marketplace.visualstudio.com/items?itemName=lucacicii.agent-resume-panel-v2) | [下载 DMG](https://github.com/lucacicii/agent-resume-desktop-doc/releases/latest) |
 | **文档** | 本仓库 | [desktop-doc](https://github.com/lucacicii/agent-resume-desktop-doc) |
 
-扩展版本：**2.6.13** · [更新日志](CHANGELOG.md) · 桌面端版本见 [Releases](https://github.com/lucacicii/agent-resume-desktop-doc/releases)
+扩展版本：**2.7.0** · [更新日志](CHANGELOG.md) · 桌面端版本见 [Releases](https://github.com/lucacicii/agent-resume-desktop-doc/releases)
 
 > **无云端 · 纯本机存储**  
 > 数据默认目录 **`~/.agent-resume-panel`**（扩展与 Desktop 共用）。可选 LLM Assist 仅在你配置第三方 API 时使用。
@@ -102,8 +102,8 @@ Typical combo: **extension** for day-to-day resume inside the editor → **Deskt
 
 | 模块 | 内容 |
 |------|------|
-| [会话 Sessions](sessions.md) | Recent / Favorites / Projects、Provider、搜索、Session Manager、隐藏 / 重命名 / 预览 |
-| [恢复与目标](resume-and-targets.md) | 点击恢复：集成终端、Ghostty、Claude/Codex 面板、Codex App |
+| [会话 Sessions](sessions.md) | Recent / Favorites / Projects、含 Cursor 的 Provider、搜索、Session Manager、隐藏 / 重命名 / 预览 |
+| [恢复与目标](resume-and-targets.md) | 点击恢复：集成终端、Ghostty、Claude/Codex 面板、Codex App、Cursor CLI |
 | [ACP Chat](acp-chat.md) | 编辑器旁 ACP 聊天（仅扩展） |
 | [GTD](gtd.md) | `@inbox` / `@next` / `@waiting` / `@someday` / `@reference` / `@done` |
 | [Notes](notes.md) | 会话 / 项目 Markdown 笔记与附件 |

@@ -22,8 +22,12 @@ The **Sessions** sidebar view is the main place to browse, search, and open hist
 | **Grok Build** | `~/.grok` (or configured path) |
 | **OpenCode** | configured OpenCode home |
 | **Pi** | configured Pi home |
+| **Cursor CLI** | `~/.cursor` |
+| **Cursor IDE** | platform Cursor User directory (Composer headers only) |
 
 Full transcripts stay in each agent’s native storage. The panel index only stores catalog metadata (title, project, timestamps, GTD, note flags, etc.).
+
+**Cursor support:** Cursor CLI sessions include local transcript preview and can be resumed. Cursor IDE currently exposes only Composer session headers locally, so the panel indexes their metadata and opens the recorded project in Cursor; it does not claim command resume or transcript preview for those IDE sessions.
 
 ### Browse layout
 
@@ -84,8 +88,12 @@ Use the view title bar **Refresh** when lists look out of date after heavy CLI u
 | **Grok Build** | `~/.grok`（或自定义路径） |
 | **OpenCode** | 配置的 OpenCode 目录 |
 | **Pi** | 配置的 Pi 目录 |
+| **Cursor CLI** | `~/.cursor` |
+| **Cursor IDE** | 平台默认的 Cursor User 目录（仅 Composer 会话头） |
 
 完整对话正文仍在各 Agent 原生存储中。面板索引主要保存标题、项目、时间、GTD、笔记标记等元数据。
+
+**Cursor 支持范围：**Cursor CLI 会话可本地预览并恢复。Cursor IDE 目前仅在本机暴露 Composer 会话头，因此面板只索引其元数据并在 Cursor 中打开记录的项目；不承诺 IDE 会话的命令恢复或正文预览。
 
 ### 浏览结构
 

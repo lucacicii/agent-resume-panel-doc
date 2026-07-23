@@ -26,12 +26,17 @@ Clicking a session (or choosing a resume action from the context menu) launches 
 | **Claude Code panel** | Resume inside the Claude Code IDE panel when available |
 | **Codex IDE panel** | Resume inside the Codex IDE panel when available |
 | **Codex App** | Open the standalone Codex app for that session |
+| **Cursor CLI** | Resume in the integrated terminal with `cursor-agent --workspace <cwd> --resume <sessionId>` |
 
 Exact menu items depend on provider and your settings (e.g. Claude/Codex resume mode, Ghostty executable path).
 
 ### New sessions
 
-From project or editor context you can start **new** sessions for Codex, Claude, Antigravity, Grok, OpenCode, Pi, or Codex App — without leaving the IDE. Editor “new session” default provider is configurable.
+From project or editor context you can start **new** sessions for Codex, Claude, Antigravity, Grok, OpenCode, Pi, Cursor CLI, or Codex App — without leaving the IDE. Editor “new session” default provider is configurable.
+
+### Cursor IDE
+
+Cursor IDE Composer sessions do not have a supported command resume target. Selecting one opens its recorded project in Cursor instead; use the IDE's own Composer history to continue that chat.
 
 ### Tips
 
@@ -68,12 +73,17 @@ From project or editor context you can start **new** sessions for Codex, Claude,
 | **Claude Code 面板** | 在可用时于 Claude Code IDE 面板中恢复 |
 | **Codex IDE 面板** | 在可用时于 Codex IDE 面板中恢复 |
 | **Codex App** | 在独立 Codex 应用中打开该会话 |
+| **Cursor CLI** | 在集成终端执行 `cursor-agent --workspace <cwd> --resume <sessionId>` 恢复 |
 
 具体菜单项取决于 Provider 与设置（如 Claude/Codex resume mode、Ghostty 可执行文件路径）。
 
 ### 新建会话
 
-可从项目或编辑器上下文新建 Codex、Claude、Antigravity、Grok、OpenCode、Pi 或 Codex App 会话。编辑器「新建会话」的默认 Provider 可配置。
+可从项目或编辑器上下文新建 Codex、Claude、Antigravity、Grok、OpenCode、Pi、Cursor CLI 或 Codex App 会话。编辑器「新建会话」的默认 Provider 可配置。
+
+### Cursor IDE
+
+Cursor IDE Composer 会话没有受支持的命令恢复目标。选择该会话会在 Cursor 中打开其记录的项目；继续对话请使用 IDE 自己的 Composer 历史。
 
 ### 提示
 

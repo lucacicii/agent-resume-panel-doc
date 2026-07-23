@@ -8,6 +8,12 @@ This file is used for Open VSX release notes and follows [Keep a Changelog](http
 
 ## 简体中文
 
+### [2.7.0]
+
+#### 新增
+
+- **Cursor 支持**：新增 Cursor CLI 会话同步、预览、终端恢复与复制 `cursor-agent` 恢复命令；Cursor IDE Composer 会话索引元数据并打开记录项目，不支持命令恢复或正文预览。
+
 ### [2.6.13]
 
 #### 新增
@@ -424,6 +430,12 @@ This file is used for Open VSX release notes and follows [Keep a Changelog](http
 - 更新 README 与扩展描述，涵盖搜索、重命名、预览功能。
 
 ## English
+
+### [2.7.0]
+
+#### Added
+
+- **Cursor support**: Cursor CLI session sync, preview, terminal resume, and copied `cursor-agent` resume commands; Cursor IDE Composer sessions index metadata and open their recorded project, without command resume or transcript preview.
 
 ### [2.6.13]
 
