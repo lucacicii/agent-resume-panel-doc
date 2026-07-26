@@ -5,6 +5,10 @@ Languages: [English](#english) | [简体中文](#简体中文)
 Browse, search, and resume **Codex / Claude Code / Antigravity / Grok Build / OpenCode / Pi / Cursor CLI** sessions from a VS Code / VSCodium sidebar — with **ACP Chat**, **GTD** tagging, **multi-note Markdown** files, and Summarize / Rename / Handoff assist. **Cursor IDE** Composer session metadata is indexed and opens its recorded project in Cursor.
 
 There is also a standalone **macOS Desktop app** for calendar digests, Agent Q&A over your work history, and an embedded **Workbench** terminal — it shares the same local data as this extension.
+<img width="2880" height="1632" alt="image" src="https://github.com/user-attachments/assets/fb4639d1-9cde-4510-8064-a17e374b016b" />
+
+<img width="2880" height="1632" alt="image" src="https://github.com/user-attachments/assets/3fb6400c-8cb6-4a8d-9b5a-1a5db1c10ad5" />
+
 <img width="1787" height="1323" alt="image" src="https://github.com/user-attachments/assets/84f880d6-e0bb-455f-ae31-0f9cdf63b36f" /><img width="588" height="582" alt="image" src="https://github.com/user-attachments/assets/0c681e2f-874f-4502-b060-32b0d3b3bb9b" />
 <img width="2560" height="1345" alt="image" src="https://github.com/user-attachments/assets/6a88ddcb-5665-4481-9622-0ab6f7c90dd7" /><img width="584" height="467" alt="image" src="https://github.com/user-attachments/assets/31b568e1-c287-4404-b631-79365870e04e" />
 <img width="2560" height="1345" alt="image" src="https://github.com/user-attachments/assets/5e2332c2-a401-4847-816d-e1eb475dba8c" /><img width="2560" height="1345" alt="image" src="https://github.com/user-attachments/assets/807f4882-e93c-47ee-bc50-5c5e387cce8a" />
